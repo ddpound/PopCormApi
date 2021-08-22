@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestApiController {
-
-
+    
+    
+    // api테스트
     @GetMapping("test")
     public String test(){
-        return "hi";
+        return "Test RestAPI Get";
     }
 
 
